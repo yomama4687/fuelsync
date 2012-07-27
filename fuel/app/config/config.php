@@ -41,7 +41,7 @@ return array(
 	 *
 	 * Set this to false or remove if you using mod_rewrite.
 	 */
-	'index_file'  => 'index.php',
+//	'index_file'  => 'index.php',
 
 	'profiling'  => false,
 
@@ -73,9 +73,12 @@ return array(
 	/**
 	 * Localization & internationalization settings
 	 */
-	'language'           => 'en', // Default language
-	'language_fallback'  => 'en', // Fallback language when file isn't available for default language
-	'locale'             => 'en_US', // PHP set_locale() setting, null to not set
+//	'language'           => 'en', // Default language
+//	'language_fallback'  => 'en', // Fallback language when file isn't available for default language
+//	'locale'             => 'en_US', // PHP set_locale() setting, null to not set
+	'language'           => 'ja', // Default language
+	'language_fallback'  => 'ja', // Fallback language when file isn't available for default language
+	'locale'             => 'ja_JP.utf8', // PHP set_locale() setting, null to not set
 
 	'encoding'  => 'UTF-8',
 
@@ -85,8 +88,10 @@ return array(
 	 * server_gmt_offset	in seconds the server offset from gmt timestamp when time() is used
 	 * default_timezone		optional, if you want to change the server's default timezone
 	 */
-	'server_gmt_offset'  => 0,
-	'default_timezone'   => 'UTC',
+//	'server_gmt_offset'  => 0,
+//	'default_timezone'   => 'UTC',
+	'server_gmt_offset'  => 3600 * 9,
+	'default_timezone'   => 'Asia/Tokyo',
 
 	/**
 	 * Logging Threshold.  Can be set to any of the following:
@@ -98,7 +103,8 @@ return array(
 	 * Fuel::L_INFO
 	 * Fuel::L_ALL
 	 */
-	'log_threshold'    => Fuel::L_WARNING,
+//	'log_threshold'    => Fuel::L_WARNING,
+	'log_threshold'    => Fuel::L_ALL,
 	'log_path'         => APPPATH.'logs/',
 	'log_date_format'  => 'Y-m-d H:i:s',
 
@@ -211,6 +217,8 @@ return array(
 		 */
 		'packages'  => array(
 			//'orm',
+			'auth',
+			'orm',
 		),
 
 		/**
