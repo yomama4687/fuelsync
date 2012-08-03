@@ -7,7 +7,7 @@
 	<meta name="description" content="">
 	<meta name="author" content="">
 	<meta name="viewport" content="width=device-width">
-	<?php echo Asset::js('modernizr-2.5.3-respond-1.1.0/modernizr-2.5.3-respond-1.1.0.min.js'); ?>
+	<?php echo Asset::js('modernizr/modernizr-2.6.1.custom.min.js'); ?>
 	<?php echo Asset::css('kickstart/css/kickstart.css'); ?>           <!-- KICKSTART -->
 	<?php echo Asset::css('my/admin.css'); ?>
 

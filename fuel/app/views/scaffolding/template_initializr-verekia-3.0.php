@@ -16,7 +16,7 @@
 	</style>
 	<?php echo Asset::css('initializr-verekia-3.0/css/bootstrap-responsive.min.css'); ?>
 	<?php echo Asset::css('initializr-verekia-3.0/css/style.css'); ?>
-	<?php echo Asset::js('initializr-verekia-3.0/js/libs/modernizr-2.5.3-respond-1.1.0.min.js'); ?>
+	<?php echo Asset::js('modernizr/modernizr-2.6.1.custom.min.js'); ?>
 	<?php echo Asset::js('initializr-verekia-3.0/js/libs/jquery-1.7.2.min.js'); ?>
 	<?php echo Asset::js('initializr-verekia-3.0/js/libs/bootstrap/bootstrap.min.js'); ?>
 	<?php echo Asset::js('initializr-verekia-3.0/js/script.js'); ?>
