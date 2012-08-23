@@ -4,36 +4,36 @@
 <table class="zebra-striped">
 	<thead>
 		<tr>
-			<th>Username</th>
-			<th>Password</th>
-			<th>Group</th>
-			<th>Email</th>
-			<th>Last login</th>
-			<th>Login hash</th>
-			<th>Profile fields</th>
-			<th>First name</th>
-			<th>Last name</th>
-			<th>First name kana</th>
-			<th>Last name kana</th>
-			<th>Company name</th>
-			<th>Dept name</th>
-			<th>Phone</th>
-			<th>Fax</th>
-			<th>Birthday</th>
-			<th>Address id</th>
-			<th>Address id 4 shipping</th>
-			<th>Attr1</th>
-			<th>Attr2</th>
-			<th>Attr3</th>
-			<th>Attr4</th>
-			<th>Attr5</th>
-			<th>Attr6</th>
-			<th>Attr7</th>
-			<th>Attr8</th>
-			<th>Attr9</th>
-			<th>Attr10</th>
-			<th>Start date</th>
-			<th>End date</th>
+			<th>アカウント名</th>
+			<th>パスワード(暗号化)</th>
+			<th>権限グループ</th>
+			<th>メールアドレス</th>
+			<th>前回ログイン日時</th>
+			<th>ログイン特定キー</th>
+			<th>プロフィール属性</th>
+			<th>姓</th>
+			<th>名</th>
+			<th>姓(カナ)</th>
+			<th>名(カナ)</th>
+			<th>会社名</th>
+			<th>所属名</th>
+			<th>電話番号</th>
+			<th>FAX番号</th>
+			<th>生年月日</th>
+			<th>住所ID</th>
+			<th>住所ID(お届け先)</th>
+			<th>OS</th>
+			<th>EXCELバージョン</th>
+			<th>SKYPE有無</th>
+			<th>仕入業務有無</th>
+			<th>予備5</th>
+			<th>予備6</th>
+			<th>予備7</th>
+			<th>予備8</th>
+			<th>予備9</th>
+			<th>予備10</th>
+			<th>有効開始日時</th>
+			<th>有効終了日時</th>
 			<th></th>
 		</tr>
 	</thead>

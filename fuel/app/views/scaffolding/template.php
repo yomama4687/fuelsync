@@ -20,9 +20,42 @@
 </head>
 <body>
 <a id="top-of-page"></a>
-	<div id="wrap" class="clearfix">
-	
-		<div id="content">
+<div id="header-info"><div class="content">大家さんのための青色申告応援サイトです。経理初心者の方でも、不動産所得の青色申告が簡単に出来ます！</div></div>
+<div id="wrap" class="clearfix">
+	<header id="header">
+		<div class="top-element">
+			<div class="header-top-link"><a href="">お問い合わせ</a></div>
+			<div class="header-top-link"><a href="">サイトマップ</a></div>
+			<div class="header-top-search"><input type="text" name="" id="" /><a class="site-search" href="">&nbsp;</a></div>
+		</div>
+		<div class="content">
+			<div class="content-title"></div>
+			<div class="content-back"></div>
+		</div>
+		<div class="nav">
+			<nav>
+				<ul class="main-menu">
+					<li class="current"><a href="">Top</a>
+					</li>
+					<li><a href="">ご利用ガイド</a>
+					</li>
+					<li><a href="">ダウンロード</a>
+					</li>
+					<li><a href="">ユーザー登録</a>
+					</li>
+					<li><a href="">サポート</a>
+					</li>
+					<li><a href="http://c3works.net/ooya_aoiro/top.html">よくあるご質問</a>
+					</li>
+					<li><a href="http://c3works.net/ooya_aoiro/supprt.html">書籍について</a>
+					</li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+
+	<div id="content">
+		<div id="main">
 			<div class="col_12">
 				<h1><?php echo $title; ?></h1>
 				<hr>
@@ -47,13 +80,101 @@
 <?php echo $content; ?>
 			</div>
 		</div>
-		<footer>
-			<p class="pull-right">Page rendered in {exec_time}s using {mem_usage}mb of memory.</p>
-			<p>
-				<a href="http://fuelphp.com">FuelPHP</a> is released under the MIT license.<br>
-				<small>Version: <?php echo e(Fuel::VERSION); ?></small>
-			</p>
-		</footer>
-	</div> <!-- /container -->
+
+		
+		<div id="side">
+<?php echo $side; ?>
+		</div>
+		<div class="clear"></div>
+		
+	</div>
+
+<div class="clear"></div>
+
+</div><!-- END WRAP -->
+	
+<div id="footer">
+	<div class="footer-top">
+		<div class="top-bg"></div>
+		<div class="top-link"><a href="#top-of-page"><span class="icon midium" data-icon="~" title="Tri-up"></span>ページトップへ</a></div>
+	</div>
+	<div class="clear"></div>
+	<div class="footer-main">
+		<div class="main-box">
+			<div class="content">
+				<div class="header"><a href="">ご利用ガイド</a></div>
+				<ul>
+					<li><a href="">○○○○○</a></li>
+					<li><a href="">○○○○○</a></li>
+					<li><a href="">○○○○○</a></li>
+				</ul>
+			</div>
+			<div class="content">
+				<div class="header"><a href="">ダウンロード</a></div>
+				<ul>
+					<li><a href="">○○○○○</a></li>
+					<li><a href="">○○○○○</a></li>
+					<li><a href="">○○○○○</a></li>
+				</ul>
+			</div>
+			<div class="content">
+				<div class="header"><a href="">サポート</a></div>
+				<ul>
+					<li><a href="">○○○○○</a></li>
+					<li><a href="">○○○○○</a></li>
+					<li><a href="">○○○○○</a></li>
+				</ul>
+			</div>
+			<div class="content">
+				<div class="header"><a href="">よくあるご質問</a></div>
+				<ul>
+					<li><a href="">○○○○○</a></li>
+					<li><a href="">○○○○○</a></li>
+					<li><a href="">○○○○○</a></li>
+				</ul>
+			</div>
+			<div class="clear"></div>
+			<div class="content">
+				<div class="header"><a href="">ユーザー登録</a></div>
+			</div>
+			<div class="content">
+				<div class="header"><a href="">お問い合わせ</a></div>
+			</div>
+			<div class="content">
+				<div class="header"><a href="">お知らせ</a></div>
+			</div>
+			<div class="content">
+				<div class="header"><a href="">税制改正ニュース</a></div>
+			</div>
+			<div class="clear"></div>
+			<div class="content">
+				<div class="header"><a href="">書籍について</a></div>
+			</div>
+			<div class="content">
+				<div class="header"><a href="">プライバシーポリシー</a></div>
+			</div>
+			<div class="content">
+				<div class="header"><a href="">特定商取引法に基づく表示</a></div>
+			</div>
+			<div class="content">
+				<div class="header"><a href="">サイトマップ</a></div>
+			</div>
+			<div class="clear"></div>
+			
+			<div class="copyright">
+				Copyright &copy; since 2012 Creative Work Station. All rights reserved.
+			</div>
+		</div>
+	</div>
+	<div class="clear"></div>
+	
+	<footer>
+		<p class="pull-right">Page rendered in {exec_time}s using {mem_usage}mb of memory.</p>
+		<p>
+			<a href="http://fuelphp.com">FuelPHP</a> is released under the MIT license.<br>
+			<small>Version: <?php echo e(Fuel::VERSION); ?></small>
+		</p>
+	</footer>
+</div> <!-- /container -->
 </body>
 </html>

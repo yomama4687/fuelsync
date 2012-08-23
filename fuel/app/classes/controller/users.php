@@ -7,6 +7,7 @@ class Controller_Users extends Controller_Template
 		$data['users'] = Model_User::find('all');
 		$this->template->title = "Users";
 		$this->template->content = View::forge('users/index', $data);
+		$this->template->side = View::forge('template_side', $data);
 
 	}
 
@@ -18,6 +19,7 @@ class Controller_Users extends Controller_Template
 
 		$this->template->title = "User";
 		$this->template->content = View::forge('users/view', $data);
+		$this->template->side = View::forge('template_side', $data);
 
 	}
 	
@@ -88,6 +90,7 @@ class Controller_Users extends Controller_Template
 
 		$this->template->title = "Users";
 		$this->template->content = View::forge('users/create');
+		$this->template->side = View::forge('template_side');
 
 	}
 
@@ -188,6 +191,7 @@ class Controller_Users extends Controller_Template
 
 		$this->template->title = "Users";
 		$this->template->content = View::forge('users/edit');
+		$this->template->side = View::forge('template_side', $user);
 
 	}
 
