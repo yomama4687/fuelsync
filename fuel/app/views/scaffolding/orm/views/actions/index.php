@@ -1,4 +1,7 @@
-﻿<h2>Listing <?php echo \Str::ucfirst($plural_name); ?></h2>
+﻿<section>
+<h1>Listing <?php echo \Str::ucfirst($plural_name); ?></h1>
+<div class="content">
+
 <br>
 <?php echo "<?php if (\${$plural_name}): ?>"; ?>
 
@@ -40,3 +43,5 @@
 
 
 </p>
+</div>
+</section>

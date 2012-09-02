@@ -1,4 +1,7 @@
-﻿<h2>Listing Users</h2>
+﻿<section>
+<h1>Listing Users</h1>
+<div class="content">
+
 <br>
 <?php if ($users): ?>
 <table class="striped">
@@ -87,3 +90,6 @@
 	<?php echo Html::anchor('users/create', 'User新規登録', array('class' => 'btn medium green')); ?>
 
 </p>
+
+</div>
+</section>

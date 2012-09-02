@@ -1,4 +1,7 @@
-<h2>Viewing #<?php echo $user->id; ?></h2>
+<section>
+<h1>Viewing #<?php echo $user->id; ?></h1>
+<div class="content">
+
 
 <p>
 	<strong>Username:</strong>
@@ -93,3 +96,6 @@
 
 <?php echo Html::anchor('users/edit/'.$user->id, 'Edit'); ?> |
 <?php echo Html::anchor('users', 'Back'); ?>
+
+</div>
+</section>

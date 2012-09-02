@@ -56,29 +56,25 @@
 
 	<div id="content">
 		<div id="main">
-			<div class="col_12">
-				<h1><?php echo $title; ?></h1>
-				<hr>
 <?php if (Session::get_flash('success')): ?>
-				<div class="notice success">
-					<span class="icon medium" data-icon="C"></span>
-					<p>
-					<?php echo implode('</p><p>', e((array) Session::get_flash('success'))); ?>
-					</p>
-				</div>
+			<div class="notice success">
+				<span class="icon medium" data-icon="C"></span>
+				<p>
+				<?php echo implode('</p><p>', e((array) Session::get_flash('success'))); ?>
+				</p>
+			</div>
 <?php endif; ?>
 <?php if (Session::get_flash('error')): ?>
-				<div class="notice error">
-					<span class="icon medium" data-icon="X"></span>
-					<p>
-					<?php echo implode('</p><p>', e((array) Session::get_flash('error'))); ?>
-					</p>
-				</div>
+			<div class="notice error">
+				<span class="icon medium" data-icon="X"></span>
+				<p>
+				<?php echo implode('</p><p>', e((array) Session::get_flash('error'))); ?>
+				</p>
+			</div>
 <?php endif; ?>
-			</div>
-			<div class="col_12">
+			
 <?php echo $content; ?>
-			</div>
+
 		</div>
 
 		
